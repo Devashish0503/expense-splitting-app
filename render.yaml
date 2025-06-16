@@ -6,4 +6,3 @@ services:
     startCommand: gunicorn wsgi:app
     plan: free
     autoDeploy: true
-    pythonVersion: 3.12.3
